@@ -15,7 +15,7 @@ on['I10565'] = [ 33551, 33552, 33848, 33849, 33905, 33906]
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1['I10565']   = "linecheck=1"
+pars1['I10565']   = "linecheck=1 public=2020-12-31 qagrade=3"
 
 #        common parameters per source on subsequent runs (run1b, run2b), e.g. bank=0 for WARES
 pars2 = {}
